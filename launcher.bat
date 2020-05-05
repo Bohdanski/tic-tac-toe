@@ -1,10 +1,5 @@
-:: Change directory here to match file location:
-
-cd C:\Users\tubxt2p\Documents\Python\python-projects\tictactoe\
-::cd C:\Users\bohda\Desktop\Programming\Python\python-projects\tictactoe
-
-
+:: Assign current working directory (root directory) to variable X
+set X=%CD%
 
 :: Change file name here
-
-python tictactoe.py
+python tic_tac_toe.py %X%
